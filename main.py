@@ -182,5 +182,12 @@ while True:
             print(f'Error: {unimportS} does not exist')
     elif cmd == 'libs':
         print('librarys: math, input')
+    elif cmd == 'while input()':
+        prompt = input('prompt:  ')
+        print('use exit to exit')
+        while True:
+            in0ut = input(prompt)
+            if in0ut == 'exit':
+                break
     else:
         print(f'Error: {cmd} is not a valid block')
